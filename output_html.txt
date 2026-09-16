@@ -1,0 +1,317 @@
+                    <!-- Project 1: LUMA -->
+                    <div class="design-gallery-item filter-item branding reveal-up open-lightbox-btn" data-project="luma">
+                        <img src="assets/luma.jpg" alt="LUMA Branding / Identidad Visual" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">LUMA</h3>
+                            <p class="gallery-item-cat">Branding / Identidad Visual</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 2: NORD -->
+                    <div class="design-gallery-item filter-item ui reveal-up open-lightbox-btn" data-project="nord">
+                        <img src="assets/nord.jpg" alt="NORD Interfaz Web / UI" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">NORD</h3>
+                            <p class="gallery-item-cat">Interfaz Web / UI</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 3: VANTA -->
+                    <div class="design-gallery-item filter-item social branding ui motion reveal-up open-lightbox-btn" data-project="vanta">
+                        <img src="assets/vanta.jpg" alt="VANTA Campaña de Social Media" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">VANTA</h3>
+                            <p class="gallery-item-cat">Campaña de Social Media</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 4: MONO -->
+                    <div class="design-gallery-item filter-item packaging reveal-up open-lightbox-btn" data-project="mono">
+                        <img src="assets/mono.jpg" alt="MONO Diseño de Packaging" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">MONO</h3>
+                            <p class="gallery-item-cat">Diseño de Packaging</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 5: AURA -->
+                    <div class="design-gallery-item filter-item editorial reveal-up open-lightbox-btn" data-project="aura">
+                        <img src="assets/aura.jpg" alt="AURA Diseño Editorial" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">AURA</h3>
+                            <p class="gallery-item-cat">Diseño Editorial</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 6: KORA -->
+                    <div class="design-gallery-item filter-item advertising reveal-up open-lightbox-btn" data-project="kora">
+                        <img src="assets/kora.jpg" alt="KORA Publicidad / Key Visual" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">KORA</h3>
+                            <p class="gallery-item-cat">Publicidad / Key Visual</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 7: NOVA -->
+                    <div class="design-gallery-item filter-item ui branding motion reveal-up open-lightbox-btn" data-project="nova">
+                        <img src="assets/nova.jpg" alt="NOVA SaaS UI & Branding" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">NOVA</h3>
+                            <p class="gallery-item-cat">SaaS UI & Branding</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 8: NOIR -->
+                    <div class="design-gallery-item filter-item packaging branding photo reveal-up open-lightbox-btn" data-project="noir">
+                        <img src="assets/noir.jpg" alt="NOIR Luxury Packaging" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">NOIR</h3>
+                            <p class="gallery-item-cat">Luxury Packaging</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 9: ABSTRACT -->
+                    <div class="design-gallery-item filter-item 3d reveal-up open-lightbox-btn" data-project="abstract">
+                        <img src="assets/abstract.jpg" alt="ABSTRACT Dirección de Arte 3D" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">ABSTRACT</h3>
+                            <p class="gallery-item-cat">Dirección de Arte 3D</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 10: LENS -->
+                    <div class="design-gallery-item filter-item photo reveal-up open-lightbox-btn" data-project="lens">
+                        <img src="assets/lens.jpg" alt="LENS Fotografía Editorial" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">LENS</h3>
+                            <p class="gallery-item-cat">Fotografía Editorial</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 11: FOLIO -->
+                    <div class="design-gallery-item filter-item editorial reveal-up open-lightbox-btn" data-project="folio">
+                        <img src="assets/folio.jpg" alt="FOLIO Diseño de Libro" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">FOLIO</h3>
+                            <p class="gallery-item-cat">Diseño de Libro</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 12: BOTANICA -->
+                    <div class="design-gallery-item filter-item packaging reveal-up open-lightbox-btn" data-project="botanica">
+                        <img src="assets/botanica.jpg" alt="BOTANICA Cosmética Orgánica" loading="lazy">
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">BOTANICA</h3>
+                            <p class="gallery-item-cat">Cosmética Orgánica</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 13: SORA -->
+                    <div class="design-gallery-item filter-item ui reveal-up open-lightbox-btn" data-project="sora">
+                        <div style="background: linear-gradient(135deg, #f0f0f5, #e0e5ec); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(0,0,0,0.04); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">SORA</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">SORA</h3>
+                            <p class="gallery-item-cat">Mobile App UI</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 14: NEXA -->
+                    <div class="design-gallery-item filter-item branding reveal-up open-lightbox-btn" data-project="nexa">
+                        <div style="background: linear-gradient(135deg, #050b14, #122238); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.05); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">NEXA</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">NEXA</h3>
+                            <p class="gallery-item-cat">Innovación Tecnológica</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 15: ALMA -->
+                    <div class="design-gallery-item filter-item branding reveal-up open-lightbox-btn" data-project="alma">
+                        <div style="background: linear-gradient(135deg, #f2ebe3, #d9cec1); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(100,60,40,0.05); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">ALMA</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">ALMA</h3>
+                            <p class="gallery-item-cat">Cafetería Boutique</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 16: FORMA -->
+                    <div class="design-gallery-item filter-item branding reveal-up open-lightbox-btn" data-project="forma">
+                        <div style="background: linear-gradient(135deg, #111, #222); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.03); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">FORMA</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">FORMA</h3>
+                            <p class="gallery-item-cat">Arquitectura</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 17: ZENITH -->
+                    <div class="design-gallery-item filter-item ui reveal-up open-lightbox-btn" data-project="zenith">
+                        <div style="background: linear-gradient(135deg, #0d1b2a, #1b263b); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.03); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">ZENITH</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">ZENITH</h3>
+                            <p class="gallery-item-cat">Fintech Dashboard</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 18: OMNIA -->
+                    <div class="design-gallery-item filter-item ui reveal-up open-lightbox-btn" data-project="omnia">
+                        <div style="background: linear-gradient(135deg, #2b2d42, #8d99ae); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.08); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">OMNIA</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">OMNIA</h3>
+                            <p class="gallery-item-cat">Sistema de Diseño</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 19: FLOW -->
+                    <div class="design-gallery-item filter-item motion social reveal-up open-lightbox-btn" data-project="flow">
+                        <div style="background: linear-gradient(135deg, #ff0055, #220033); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.05); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">FLOW</h2>
+                            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:60px; height:60px; background:rgba(0,0,0,0.2); backdrop-filter:blur(5px); border-radius:50%; display:flex; align-items:center; justify-content:center; border:1px solid rgba(255,255,255,0.2);"><svg width="24" height="24" viewBox="0 0 24 24" fill="white" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></div>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">FLOW</h3>
+                            <p class="gallery-item-cat">Motion Graphics</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 20: PULSE -->
+                    <div class="design-gallery-item filter-item social advertising reveal-up open-lightbox-btn" data-project="pulse">
+                        <div style="background: linear-gradient(135deg, #ff4e00, #ec9f05); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.1); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">PULSE</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">PULSE</h3>
+                            <p class="gallery-item-cat">Campaña Deportiva</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 21: GLOW -->
+                    <div class="design-gallery-item filter-item social reveal-up open-lightbox-btn" data-project="glow">
+                        <div style="background: linear-gradient(135deg, #ffcbf2, #f3c4fb); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(0,0,0,0.05); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">GLOW</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">GLOW</h3>
+                            <p class="gallery-item-cat">Lanzamiento Skincare</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 22: ARCH -->
+                    <div class="design-gallery-item filter-item editorial reveal-up open-lightbox-btn" data-project="arch">
+                        <div style="background: linear-gradient(135deg, #e5e5e5, #ffffff); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(0,0,0,0.04); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">ARCH</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">ARCH</h3>
+                            <p class="gallery-item-cat">Revista de Diseño</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 23: NEON -->
+                    <div class="design-gallery-item filter-item advertising reveal-up open-lightbox-btn" data-project="neon">
+                        <div style="background: linear-gradient(135deg, #0a0a0a, #00ffcc); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(0,0,0,0.1); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">NEON</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">NEON</h3>
+                            <p class="gallery-item-cat">Campaña Digital</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 24: ATHLETICA -->
+                    <div class="design-gallery-item filter-item advertising reveal-up open-lightbox-btn" data-project="athletica">
+                        <div style="background: linear-gradient(135deg, #d90429, #ef233c); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.05); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">ATHLETICA</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">ATHLETICA</h3>
+                            <p class="gallery-item-cat">Publicidad Exterior</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 25: DYNAMIC -->
+                    <div class="design-gallery-item filter-item motion reveal-up open-lightbox-btn" data-project="dynamic">
+                        <div style="background: linear-gradient(135deg, #4361ee, #3a0ca3); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.05); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">DYNAMIC</h2>
+                            <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:60px; height:60px; background:rgba(0,0,0,0.2); backdrop-filter:blur(5px); border-radius:50%; display:flex; align-items:center; justify-content:center; border:1px solid rgba(255,255,255,0.2);"><svg width="24" height="24" viewBox="0 0 24 24" fill="white" stroke="none"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg></div>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">DYNAMIC</h3>
+                            <p class="gallery-item-cat">Product Reel</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 26: DIMENSION -->
+                    <div class="design-gallery-item filter-item 3d reveal-up open-lightbox-btn" data-project="dimension">
+                        <div style="background: linear-gradient(135deg, #7209b7, #f72585); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.05); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">DIMENSION</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">DIMENSION</h3>
+                            <p class="gallery-item-cat">Render 3D</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>
+                    <!-- Project 27: RAW -->
+                    <div class="design-gallery-item filter-item photo reveal-up open-lightbox-btn" data-project="raw">
+                        <div style="background: linear-gradient(135deg, #212529, #343a40); display: flex; align-items: center; justify-content: center; min-height: 400px; width: 100%; position:relative; overflow:hidden;">
+                            <div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div>
+                            <h2 style="color: rgba(255,255,255,0.03); font-size: 5rem; letter-spacing: 10px; font-weight: 800; transform: rotate(-5deg); pointer-events: none;">RAW</h2>
+                        </div>
+                        <div class="design-gallery-overlay">
+                            <span class="modal-badge" style="margin-bottom: 0.5rem;">Proyecto Conceptual</span>
+                            <h3 class="gallery-item-title">RAW</h3>
+                            <p class="gallery-item-cat">Fotografía de Producto</p>
+                            <span class="view-project-link mt-2">Ver Proyecto &rarr;</span>
+                        </div>
+                    </div>

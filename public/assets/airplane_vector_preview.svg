@@ -1,0 +1,16 @@
+<svg width="140" height="100" viewBox="0 0 140 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flight Loop Trail -->
+  <path d="M 4 56 C 14 54, 26 26, 48 26 C 70 26, 76 44, 62 64 C 48 80, 20 68, 22 44 C 24 20, 56 22, 76 46" stroke="#475569" stroke-width="1.8" stroke-dasharray="4 4" stroke-linecap="round" fill="none" />
+  
+  <!-- Hand-drawn Paper Airplane (Dart) -->
+  <g>
+    <!-- Left Main Wing (White fill) -->
+    <polygon points="98,8 64,36 78,39" fill="#FFFFFF" stroke="#10182B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+    <!-- Right Wing -->
+    <polygon points="98,8 78,39 88,24" fill="#FFFFFF" stroke="#10182B" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+    <!-- Center Spine Crease Line -->
+    <line x1="98" y1="8" x2="78" y2="39" stroke="#10182B" stroke-width="2.2" stroke-linecap="round" />
+    <!-- Under-keel fold -->
+    <polygon points="75,38 77,48 82,41" fill="#FFFFFF" stroke="#10182B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  </g>
+</svg>

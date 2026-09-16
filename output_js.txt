@@ -1,0 +1,191 @@
+    const designData = {
+        'luma': {
+            title: 'LUMA',
+            category: 'Branding / Identidad Visual',
+            desc: 'Identidad de marca conceptual para estilo de vida de lujo, enfocada en minimalismo, tonos cálidos y tipografía elegante.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/luma.jpg" alt="LUMA">`
+        },
+        'nord': {
+            title: 'NORD',
+            category: 'Interfaz Web / UI',
+            desc: 'Diseño de interfaz web moderno y minimalista para un estudio de arquitectura. Layout a pantalla completa, elegante y brutalista.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/nord.jpg" alt="NORD">`
+        },
+        'vanta': {
+            title: 'VANTA',
+            category: 'Campaña de Social Media',
+            desc: 'Campaña de redes sociales oscura y futurista para una marca de tecnología. Acentos de neón brillante y estética cyber.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/vanta.jpg" alt="VANTA">`
+        },
+        'mono': {
+            title: 'MONO',
+            category: 'Diseño de Packaging',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/mono.jpg" alt="MONO">`
+        },
+        'aura': {
+            title: 'AURA',
+            category: 'Diseño Editorial',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/aura.jpg" alt="AURA">`
+        },
+        'kora': {
+            title: 'KORA',
+            category: 'Publicidad / Key Visual',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/kora.jpg" alt="KORA">`
+        },
+        'nova': {
+            title: 'NOVA',
+            category: 'SaaS UI & Branding',
+            desc: 'Concepto de interfaz futurista modo oscuro para un dashboard de analítica SaaS, combinado con motion graphics.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/nova.jpg" alt="NOVA">`
+        },
+        'noir': {
+            title: 'NOIR',
+            category: 'Luxury Packaging',
+            desc: 'Dirección de arte y diseño de packaging para una fragancia de lujo, con estilo brutalista y minimalista.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/noir.jpg" alt="NOIR">`
+        },
+        'abstract': {
+            title: 'ABSTRACT',
+            category: 'Dirección de Arte 3D',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/abstract.jpg" alt="ABSTRACT">`
+        },
+        'lens': {
+            title: 'LENS',
+            category: 'Fotografía Editorial',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/lens.jpg" alt="LENS">`
+        },
+        'folio': {
+            title: 'FOLIO',
+            category: 'Diseño de Libro',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/folio.jpg" alt="FOLIO">`
+        },
+        'botanica': {
+            title: 'BOTANICA',
+            category: 'Cosmética Orgánica',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<img src="assets/botanica.jpg" alt="BOTANICA">`
+        },
+        'sora': {
+            title: 'SORA',
+            category: 'Mobile App UI',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #f0f0f5, #e0e5ec); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(0,0,0,0.04); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">SORA</h2></div>`
+        },
+        'nexa': {
+            title: 'NEXA',
+            category: 'Innovación Tecnológica',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #050b14, #122238); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.05); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">NEXA</h2></div>`
+        },
+        'alma': {
+            title: 'ALMA',
+            category: 'Cafetería Boutique',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #f2ebe3, #d9cec1); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(100,60,40,0.05); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">ALMA</h2></div>`
+        },
+        'forma': {
+            title: 'FORMA',
+            category: 'Arquitectura',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #111, #222); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.03); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">FORMA</h2></div>`
+        },
+        'zenith': {
+            title: 'ZENITH',
+            category: 'Fintech Dashboard',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #0d1b2a, #1b263b); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.03); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">ZENITH</h2></div>`
+        },
+        'omnia': {
+            title: 'OMNIA',
+            category: 'Sistema de Diseño',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #2b2d42, #8d99ae); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.08); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">OMNIA</h2></div>`
+        },
+        'flow': {
+            title: 'FLOW',
+            category: 'Motion Graphics',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #ff0055, #220033); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.05); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">FLOW</h2></div>`
+        },
+        'pulse': {
+            title: 'PULSE',
+            category: 'Campaña Deportiva',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #ff4e00, #ec9f05); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.1); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">PULSE</h2></div>`
+        },
+        'glow': {
+            title: 'GLOW',
+            category: 'Lanzamiento Skincare',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #ffcbf2, #f3c4fb); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(0,0,0,0.05); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">GLOW</h2></div>`
+        },
+        'arch': {
+            title: 'ARCH',
+            category: 'Revista de Diseño',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #e5e5e5, #ffffff); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(0,0,0,0.04); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">ARCH</h2></div>`
+        },
+        'neon': {
+            title: 'NEON',
+            category: 'Campaña Digital',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #0a0a0a, #00ffcc); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(0,0,0,0.1); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">NEON</h2></div>`
+        },
+        'athletica': {
+            title: 'ATHLETICA',
+            category: 'Publicidad Exterior',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #d90429, #ef233c); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.05); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">ATHLETICA</h2></div>`
+        },
+        'dynamic': {
+            title: 'DYNAMIC',
+            category: 'Product Reel',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #4361ee, #3a0ca3); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.05); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">DYNAMIC</h2></div>`
+        },
+        'dimension': {
+            title: 'DIMENSION',
+            category: 'Render 3D',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #7209b7, #f72585); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.05); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">DIMENSION</h2></div>`
+        },
+        'raw': {
+            title: 'RAW',
+            category: 'Fotografía de Producto',
+            desc: 'Exploración de diseño conceptual y dirección de arte.',
+            tools: 'Photoshop, Figma, Illustrator',
+            imgHtml: `<div class="css-placeholder" style="background: linear-gradient(135deg, #212529, #343a40); display:flex; align-items:center; justify-content:center; min-height:500px; position:relative; overflow:hidden; border-radius:12px;"><div style="position:absolute; width: 150%; height: 150%; background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 60%); pointer-events: none;"></div><h2 style="color: rgba(255,255,255,0.03); font-size: 8rem; letter-spacing: 20px; font-weight: 800; transform: rotate(-5deg); pointer-events:none;">RAW</h2></div>`
+        },
+    };

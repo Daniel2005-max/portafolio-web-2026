@@ -1,0 +1,11 @@
+<svg width="250" height="180" viewBox="0 0 250 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Wing -->
+  <polygon points="2,74 246,2 96,118 60,107" fill="#FFFFFF" stroke="#10182B" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Right Wing -->
+  <polygon points="246,2 168,166 96,118" fill="#FFFFFF" stroke="#10182B" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Keel Underbody -->
+  <polygon points="60,107 96,118 81,173" fill="#FFFFFF" stroke="#10182B" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Internal Fold Lines -->
+  <line x1="246" y1="2" x2="96" y2="118" stroke="#10182B" stroke-width="4.5" stroke-linecap="round"/>
+  <line x1="60" y1="107" x2="96" y2="118" stroke="#10182B" stroke-width="4.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,71 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hand-drawn curly doodle scribble from the tip of the pencil -->
+  <path
+    d="M 28 92 C 16 98, 8 84, 18 76 C 28 68, 14 54, 22 42 C 26 36, 36 40, 38 52"
+    stroke="#10182B"
+    stroke-width="2.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-dasharray="4 4"
+    opacity="0.75"
+  />
+
+  <!-- Hand-drawn Doodle Pencil (Tilted ~45°) -->
+  <g transform="translate(38, 12) rotate(42)">
+    <!-- Rounded Eraser Top -->
+    <path
+      d="M 5 18 C 5 8, 19 8, 19 18 Z"
+      fill="#FFFFFF"
+      stroke="#10182B"
+      stroke-width="2.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    
+    <!-- Ferrule Metal Band -->
+    <rect
+      x="5"
+      y="18"
+      width="14"
+      height="8"
+      fill="#FFFFFF"
+      stroke="#10182B"
+      stroke-width="2.8"
+      stroke-linejoin="round"
+    />
+    <line x1="5" y1="22" x2="19" y2="22" stroke="#10182B" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Hexagonal Pencil Body (Clean white paper fill with bold doodle outline) -->
+    <rect
+      x="5"
+      y="26"
+      width="14"
+      height="46"
+      fill="#FFFFFF"
+      stroke="#10182B"
+      stroke-width="2.8"
+      stroke-linejoin="round"
+    />
+    <!-- Center ridge line for perspective facet -->
+    <line x1="12" y1="26" x2="12" y2="72" stroke="#10182B" stroke-width="2.4" stroke-linecap="round" />
+
+    <!-- Sharpened Wood Cone Tip -->
+    <polygon
+      points="5,72 19,72 12,90"
+      fill="#FFFFFF"
+      stroke="#10182B"
+      stroke-width="2.8"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    />
+
+    <!-- Solid Charcoal Graphite Lead Tip -->
+    <polygon
+      points="9,82 15,82 12,90"
+      fill="#10182B"
+      stroke="#10182B"
+      stroke-width="1.2"
+      stroke-linejoin="round"
+    />
+  </g>
+</svg>
