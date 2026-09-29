@@ -1,15 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,600;1,800&family=Space+Grotesk:wght@700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Playfair+Display:ital,wght@0,700;0,900;1,600;1,800&family=Space+Grotesk:wght@700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .font-handwriting {
-  font-family: 'Caveat', cursive, sans-serif;
+  font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
 }
 
 .font-editorial {
   font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Ensure nextjs dev overlays never intercept touch gestures */
+nextjs-portal {
+  pointer-events: none !important;
+}
+
+/* Prevent double-tap delay and tap highlight flicker on iOS */
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
 

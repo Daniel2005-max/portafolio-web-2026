@@ -5,9 +5,9 @@ import { Mail, Phone, MapPin } from "lucide-react";
 
 export function ContactSection() {
   return (
-    <div className="w-full h-full flex flex-col justify-between p-6 md:p-8 xl:p-10 overflow-y-auto hide-scrollbar">
+    <div className="w-full h-full flex flex-col justify-between p-4 sm:p-6 md:p-8 xl:p-10 overflow-y-auto hide-scrollbar pb-32 md:pb-8">
       
-      <div className="max-w-4xl mx-auto w-full my-auto">
+      <div className="max-w-4xl mx-auto w-full md:my-auto">
         {/* Header */}
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

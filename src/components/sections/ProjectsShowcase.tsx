@@ -31,7 +31,7 @@ const projects: Project[] = [
     view: "explore_rymel",
     links: {
       instagram: "https://www.instagram.com/rymel.sas/?hl=es",
-      facebook: "https://www.facebook.com/Rymel.com.co",
+      facebook: "https://www.facebook.com/share/19ZUJrSxWV/?mibextid=wwXIfr",
       website:
         "https://rymel.com.co/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaf9KGkS_250DrmYv4IPC7WuKPGVgT34SEjEHIW91vObaH3JJwWWTqLNp5t1TQ_aem_OXC3kQgjk0IgEdIyLvcoJw",
     },
@@ -62,8 +62,8 @@ const projects: Project[] = [
     view: "explore_bdc",
     links: {
       instagram: "https://www.instagram.com/labodegadelcarguero/?hl=es",
-      facebook: "https://www.facebook.com/labodegadelcarguero",
-      website: "https://bodegadelcarguero.com",
+      facebook: "https://www.facebook.com/share/1GzZSyk7Rk/?mibextid=wwXIfr",
+      website: "https://www.labodegadelcarguero.com",
     },
   },
 ];
@@ -98,8 +98,8 @@ export function ProjectsShowcase({
   onViewProject?: (view: string) => void;
 }) {
   return (
-    <div className="w-full h-full flex flex-col justify-between p-4 sm:p-6 md:p-8 xl:p-10 overflow-hidden">
-      <div className="max-w-6xl mx-auto w-full my-auto flex flex-col gap-4 md:gap-5">
+    <div className="w-full h-full flex flex-col justify-between p-4 sm:p-6 md:p-8 xl:p-10 overflow-y-auto hide-scrollbar pb-28 md:pb-8">
+      <div className="max-w-6xl mx-auto w-full md:my-auto flex flex-col gap-4 md:gap-5">
         {/* ── Top Header: Same structure, margins and impact as other sections ── */}
         <motion.div
           initial={{ opacity: 0, y: -10 }}
@@ -126,7 +126,8 @@ export function ProjectsShowcase({
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: idx * 0.08, duration: 0.35 }}
-                className={`bg-white/95 backdrop-blur-xl rounded-[2rem] border shadow-lg flex flex-col justify-between overflow-hidden ${ac.ring} ${ac.borderHover} hover:shadow-2xl transition-all group`}
+                onClick={() => onViewProject?.(p.view)}
+                className={`bg-white/95 backdrop-blur-xl rounded-[2rem] border shadow-lg flex flex-col justify-between overflow-hidden ${ac.ring} ${ac.borderHover} hover:shadow-2xl transition-all group cursor-pointer touch-manipulation`}
               >
                 {/* Logo container */}
                 <div
@@ -160,7 +161,10 @@ export function ProjectsShowcase({
                     </div>
 
                     {/* Social Links */}
-                    <div className="flex items-center gap-2.5 mt-1">
+                    <div
+                      className="flex items-center gap-2.5 mt-1"
+                      onClick={(e) => e.stopPropagation()}
+                    >
                       <a
                         href={p.links.instagram}
                         target="_blank"
@@ -193,8 +197,12 @@ export function ProjectsShowcase({
 
                   {/* CTA Button: Explorar proyecto */}
                   <button
-                    onClick={() => onViewProject?.(p.view)}
-                    className={`w-full flex items-center justify-center gap-2 py-2.5 md:py-3 px-4 rounded-xl md:rounded-2xl bg-black text-white text-xs md:text-sm font-bold shadow-md transition-all cursor-pointer ${ac.btn} active:scale-[0.98] shrink-0`}
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onViewProject?.(p.view);
+                    }}
+                    className={`w-full flex items-center justify-center gap-2 py-2.5 md:py-3 px-4 rounded-xl md:rounded-2xl bg-black text-white text-xs md:text-sm font-bold shadow-md transition-all cursor-pointer touch-manipulation ${ac.btn} active:scale-[0.98] shrink-0`}
                   >
                     <span>Explorar proyecto</span>
                     <ArrowUpRight size={16} />

@@ -44,8 +44,8 @@ export function MethodologySection() {
   ];
 
   return (
-    <div className="w-full h-full flex flex-col justify-between p-6 md:p-8 xl:p-10 overflow-y-auto hide-scrollbar">
-      <div className="max-w-6xl mx-auto w-full my-auto">
+    <div className="w-full h-full flex flex-col justify-between p-4 sm:p-6 md:p-8 xl:p-10 overflow-y-auto hide-scrollbar pb-32 md:pb-8">
+      <div className="max-w-6xl mx-auto w-full md:my-auto">
 
         {/* Header */}
         <div className="mb-6 md:mb-8 text-left">

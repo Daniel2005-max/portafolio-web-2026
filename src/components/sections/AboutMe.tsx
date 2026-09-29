@@ -46,8 +46,8 @@ export function AboutMe() {
   ];
 
   return (
-    <div className="w-full h-full flex flex-col justify-between p-4 sm:p-6 md:p-7 xl:p-8 overflow-hidden">
-      <div className="max-w-6xl mx-auto w-full my-auto flex flex-col gap-3 md:gap-4">
+    <div className="w-full h-full flex flex-col justify-between p-4 sm:p-6 md:p-7 xl:p-8 overflow-y-auto hide-scrollbar pb-32 md:pb-8">
+      <div className="max-w-6xl mx-auto w-full md:my-auto flex flex-col gap-3 md:gap-4">
         {/* ── Top Header: Identical margins, hierarchy & alignment as Servicios, Metodología, Herramientas ── */}
         <motion.div
           initial={{ opacity: 0, y: -10 }}

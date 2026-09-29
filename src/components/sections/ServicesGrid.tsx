@@ -60,8 +60,8 @@ export function ServicesGrid() {
   ];
 
   return (
-    <div className="w-full h-full flex flex-col justify-between p-6 md:p-8 xl:p-10 overflow-y-auto hide-scrollbar">
-      <div className="max-w-6xl mx-auto w-full my-auto">
+    <div className="w-full h-full flex flex-col justify-between p-4 sm:p-6 md:p-8 xl:p-10 overflow-y-auto hide-scrollbar pb-32 md:pb-8">
+      <div className="max-w-6xl mx-auto w-full md:my-auto">
         <div className="mb-6 md:mb-8 text-left">
           <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-2">
             Lo que <span className="text-blue-600 font-extrabold">ofrezco</span>

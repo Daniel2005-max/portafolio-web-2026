@@ -1,8 +1,15 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: "cover",
+};
 
 export const metadata: Metadata = {
   title: "Daniel Giraldo | Digital Growth & Visual Design",
@@ -16,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${inter.className} bg-slate-900 min-h-screen flex items-center justify-center p-2 md:p-6 overflow-x-hidden antialiased`}>
+      <body className={`${inter.className} bg-slate-900 min-h-[100dvh] w-full md:flex md:items-center md:justify-center p-0 md:p-5 lg:p-6 overflow-x-hidden antialiased`}>
         {children}
       </body>
     </html>
