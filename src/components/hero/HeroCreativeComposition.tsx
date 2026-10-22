@@ -787,13 +787,251 @@ export function HeroCreativeComposition({ onNavigate }: HeroProps) {
           
           {/* ── A. THE MONUMENTAL MOBILE EDITORIAL CANVAS ── */}
           <div className="relative w-full shrink-0 bg-white shadow-[0_16px_36px_rgba(16,24,43,0.12)] border border-slate-200/90 rounded-2xl overflow-hidden">
-            {/* Visual Centerpiece: Artistic Mobile Composition (Image 2) */}
-            <div className="relative w-full overflow-hidden bg-[#FAF9F5]">
-              <img
-                src="/assets/mobile_hero_art.jpg"
-                alt="Ideas que se convierten en resultados"
-                className="w-full h-auto object-cover select-none pointer-events-none"
-              />
+            {/* Visual Centerpiece: Fully Digitized HTML & SVG Canvas (Loads Instantly, Infinite Sharpness) */}
+            <div className="relative w-full overflow-hidden bg-[#FCFBF8] select-none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 435 310"
+                className="w-full h-auto block select-none pointer-events-none"
+              >
+                <defs>
+                  {/* Paper Grid Pattern */}
+                  <pattern id="mobileHeroGrid" width="22" height="22" patternUnits="userSpaceOnUse">
+                    <path d="M 22 0 L 0 0 0 22" fill="none" stroke="rgba(203, 213, 225, 0.45)" strokeWidth="1" />
+                  </pattern>
+                  {/* Post-it Drop Shadow */}
+                  <filter id="postitShadow" x="-10%" y="-10%" width="130%" height="130%">
+                    <feDropShadow dx="0" dy="7" stdDeviation="5" floodColor="#D97706" floodOpacity="0.25" />
+                  </filter>
+                </defs>
+
+                {/* Background & Grid */}
+                <rect width="435" height="310" fill="#FCFBF8" />
+                <rect width="435" height="310" fill="url(#mobileHeroGrid)" />
+
+                {/* ── 1. MAIN HEADLINE (Rotated -14° to match original sketch flow) ── */}
+                <g transform="translate(44, 72) rotate(-14)">
+                  {/* Yellow radiant rays for "Ideas" */}
+                  <path d="M -8 -20 L -18 -26" stroke="#EAB308" strokeWidth="3" strokeLinecap="round" />
+                  <path d="M 0 -26 L -3 -36" stroke="#EAB308" strokeWidth="3" strokeLinecap="round" />
+                  <text
+                    x="0"
+                    y="0"
+                    fontFamily="CaveatLocal, Caveat, cursive"
+                    fontWeight="900"
+                    fontSize="53"
+                    fill="#10182B"
+                    letterSpacing="-1"
+                  >
+                    Ideas
+                  </text>
+
+                  {/* Yellow accent rays for "que se" */}
+                  <path d="M -12 28 L -24 26" stroke="#EAB308" strokeWidth="3" strokeLinecap="round" />
+                  <path d="M -10 40 L -22 46" stroke="#EAB308" strokeWidth="3" strokeLinecap="round" />
+                  <text
+                    x="4"
+                    y="42"
+                    fontFamily="CaveatLocal, Caveat, cursive"
+                    fontWeight="800"
+                    fontSize="45"
+                    fill="#10182B"
+                    letterSpacing="-1"
+                  >
+                    que se
+                  </text>
+
+                  <text
+                    x="6"
+                    y="80"
+                    fontFamily="CaveatLocal, Caveat, cursive"
+                    fontWeight="800"
+                    fontSize="40"
+                    fill="#10182B"
+                    letterSpacing="-0.5"
+                  >
+                    convierten en
+                  </text>
+
+                  {/* "resultados" + Yellow Brush Highlighter Underline */}
+                  <text
+                    x="6"
+                    y="122"
+                    fontFamily="CaveatLocal, Caveat, cursive"
+                    fontWeight="900"
+                    fontSize="47"
+                    fill="#10182B"
+                    letterSpacing="-1"
+                  >
+                    resultados
+                  </text>
+                  {/* Brush Underline */}
+                  <path d="M 4 130 C 50 126, 110 127, 210 128 C 160 137, 90 135, 10 136 Z" fill="#FACC15" />
+                </g>
+
+                {/* ── 2. PAPER AIRPLANE WITH LOOP TRAIL (DESKTOP ASSET) ── */}
+                <g id="airplane">
+                  {/* Dashed flight loop */}
+                  <path
+                    d="M 182 46 C 172 26, 186 14, 202 18 C 216 22, 218 36, 206 44 C 194 50, 186 38, 196 26 C 204 18, 222 16, 234 18"
+                    stroke="#475569"
+                    strokeWidth="2"
+                    strokeDasharray="3.5 3.5"
+                    fill="none"
+                    strokeLinecap="round"
+                    opacity="0.85"
+                  />
+                  {/* Exact desktop airplane asset */}
+                  <g transform="translate(230, 0) rotate(-6)">
+                    <image
+                      href="/assets/airplane_user_exact.png"
+                      x="0"
+                      y="0"
+                      width="46"
+                      height="46"
+                      preserveAspectRatio="xMidYMid meet"
+                    />
+                  </g>
+                </g>
+
+                {/* ── 3. GOLDEN CROWN (EXACT DESKTOP ASSET) ── */}
+                <g id="crown" transform="translate(306, 12) rotate(6)">
+                  {/* Golden dynamic burst rays */}
+                  <line x1="23" y1="-1" x2="23" y2="-7" stroke="#EAB308" strokeWidth="2.5" strokeLinecap="round" />
+                  <line x1="6" y1="3" x2="0" y2="-2" stroke="#EAB308" strokeWidth="2.5" strokeLinecap="round" />
+                  <line x1="40" y1="3" x2="46" y2="-2" stroke="#EAB308" strokeWidth="2.5" strokeLinecap="round" />
+                  {/* Exact desktop crown asset */}
+                  <image
+                    href="/assets/crown_user_exact.png"
+                    x="0"
+                    y="0"
+                    width="46"
+                    height="38"
+                    preserveAspectRatio="xMidYMid meet"
+                  />
+                </g>
+
+                {/* ── 4. YELLOW POST-IT NOTE ── */}
+                <g id="postit" transform="translate(280, 68) rotate(3.5)" filter="url(#postitShadow)">
+                  {/* Note body */}
+                  <rect width="104" height="104" rx="2" fill="#FFDE00" stroke="#FDE047" strokeWidth="1" />
+                  {/* Pushpin */}
+                  <circle cx="52" cy="-2" r="5" fill="#10182B" />
+                  <circle cx="51" cy="-3" r="1.5" fill="#FFFFFF" />
+                  {/* Handwriting text */}
+                  <text
+                    x="52"
+                    y="36"
+                    textAnchor="middle"
+                    fontFamily="CaveatLocal, Caveat, cursive"
+                    fontWeight="700"
+                    fontSize="20"
+                    fill="#10182B"
+                  >
+                    Ideas
+                  </text>
+                  <text
+                    x="52"
+                    y="58"
+                    textAnchor="middle"
+                    fontFamily="CaveatLocal, Caveat, cursive"
+                    fontWeight="800"
+                    fontSize="24"
+                    fill="#10182B"
+                  >
+                    Creativas
+                  </text>
+                  {/* Black tape banner */}
+                  <rect x="10" y="68" width="84" height="18" rx="1" fill="#10182B" />
+                  <text
+                    x="52"
+                    y="81"
+                    textAnchor="middle"
+                    fontFamily="system-ui, -apple-system, sans-serif"
+                    fontWeight="900"
+                    fontSize="8.5"
+                    fill="#FFFFFF"
+                    letterSpacing="1.5"
+                  >
+                    IMPACTO REAL
+                  </text>
+                  {/* Yellow dynamic rays around Post-it */}
+                  <line x1="-4" y1="20" x2="-10" y2="16" stroke="#EAB308" strokeWidth="2.5" strokeLinecap="round" />
+                  <line x1="-6" y1="80" x2="-12" y2="86" stroke="#EAB308" strokeWidth="2.5" strokeLinecap="round" />
+                  <line x1="108" y1="28" x2="114" y2="24" stroke="#EAB308" strokeWidth="2.5" strokeLinecap="round" />
+                  <line x1="106" y1="76" x2="112" y2="82" stroke="#EAB308" strokeWidth="2.5" strokeLinecap="round" />
+                </g>
+
+                {/* ── 5. ROCKET BLASTING OFF (EXACT DESKTOP VECTOR & TRAIL) ── */}
+                <g id="rocket" transform="translate(320, 182)">
+                  {/* Dotted smoke trail */}
+                  <path
+                    d="M -28 78 C -14 88, 4 66, 18 46 C 28 30, 22 54, 32 44 C 38 36, 44 30, 48 22"
+                    stroke="#475569"
+                    strokeWidth="2"
+                    strokeDasharray="3.5 3.5"
+                    strokeLinecap="round"
+                    fill="none"
+                    opacity="0.8"
+                  />
+                  {/* Sparkles */}
+                  <text x="-12" y="14" fontSize="12" fill="#10182B">✦</text>
+                  <text x="54" y="6" fontSize="10" fill="#10182B">✦</text>
+
+                  {/* Exact Desktop Rocket vector paths */}
+                  <g transform="translate(16, -14) scale(0.72) rotate(22)">
+                    <path d="M 36 74 C 30 86, 40 96, 44 99 C 48 96, 58 86, 52 74 Z" fill="#FFFFFF" stroke="#10182B" strokeWidth="2.4" strokeLinejoin="round" />
+                    <path d="M 39 74 C 37 81, 42 88, 44 90 C 46 88, 51 81, 49 74 Z" fill="#FFFFFF" stroke="#10182B" strokeWidth="1.8" strokeLinejoin="round" />
+                    <path d="M 28 48 C 16 53, 10 65, 12 72 C 19 72, 26 66, 26 61 Z" fill="#FFFFFF" stroke="#10182B" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M 60 48 C 72 53, 78 65, 76 72 C 69 72, 62 66, 62 61 Z" fill="#FFFFFF" stroke="#10182B" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M 44 8 C 52 17, 60 35, 61 66 C 52 68, 44 68, 44 67 Z" fill="#F8FAFC" stroke="#10182B" strokeWidth="2.4" strokeLinejoin="round" />
+                    <path d="M 44 8 C 36 17, 28 35, 27 66 C 36 68, 44 68, 44 67 Z" fill="#FFFFFF" stroke="#10182B" strokeWidth="2.4" strokeLinejoin="round" />
+                    <path d="M 44 8 L 44 67" stroke="#10182B" strokeWidth="2" strokeLinecap="round" />
+                    <path d="M 44 8 C 39 16, 34 23, 32 28 L 56 28 C 54 23, 49 16, 44 8 Z" fill="#FFFFFF" stroke="#10182B" strokeWidth="2.4" strokeLinejoin="round" />
+                    <path d="M 44 8 L 44 28" stroke="#10182B" strokeWidth="1.8" strokeLinecap="round" />
+                    <path d="M 34 66 L 54 66 L 51 74 L 37 74 Z" fill="#10182B" stroke="#10182B" strokeWidth="2.2" strokeLinejoin="round" />
+                    <circle cx="44" cy="44" r="7.5" fill="#FFFFFF" stroke="#10182B" strokeWidth="2.2" />
+                    <circle cx="44" cy="44" r="5" fill="#F8FAFC" stroke="#10182B" strokeWidth="1.6" />
+                    <path d="M 41.5 41.5 Q 44 39.5, 46.5 41.5" stroke="#10182B" strokeWidth="1.5" strokeLinecap="round" />
+                    <path d="M 76 22 L 76 32 M 71 27 L 81 27" stroke="#10182B" strokeWidth="2" strokeLinecap="round" />
+                    <circle cx="76" cy="27" r="1.3" fill="#10182B" />
+                    <path d="M 12 30 L 12 38 M 8 34 L 16 34" stroke="#10182B" strokeWidth="1.8" strokeLinecap="round" />
+                  </g>
+                </g>
+
+                {/* ── 6. CURVED ARROW & QUOTE ── */}
+                <g id="quote" transform="translate(42, 224)">
+                  {/* Curved doodle arrow */}
+                  <path d="M 2 4 C 0 16, 8 26, 22 26" stroke="#10182B" strokeWidth="2.4" strokeLinecap="round" fill="none" />
+                  <path d="M 14 20 L 22 26 L 16 32" stroke="#10182B" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+
+                  {/* Quote text (slanted -3°) */}
+                  <g transform="translate(32, 2) rotate(-3)">
+                    <text
+                      x="0"
+                      y="14"
+                      fontFamily="CaveatLocal, Caveat, cursive"
+                      fontWeight="700"
+                      fontSize="16.5"
+                      fill="#10182B"
+                    >
+                      “Diseño que conecta,
+                    </text>
+                    <text
+                      x="6"
+                      y="34"
+                      fontFamily="CaveatLocal, Caveat, cursive"
+                      fontWeight="700"
+                      fontSize="16.5"
+                      fill="#10182B"
+                    >
+                      estrategia que <tspan fontWeight="800">convierte.”</tspan>
+                    </text>
+                    {/* Yellow highlighter line under convierte. */}
+                    <path d="M 108 38 L 180 34" stroke="#FACC15" strokeWidth="4.5" strokeLinecap="round" />
+                  </g>
+                </g>
+              </svg>
             </div>
 
             {/* Mobile Title & Intro */}
